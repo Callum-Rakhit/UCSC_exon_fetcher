@@ -17,4 +17,4 @@ zcat refGene.txt.gz | awk -f to_transcript.awk > hg19_all_exons.bed
 # Run Rscipt
 /usr/bin/Rscript ./GetExonsOfInterest.R "~/Biliary_Brush/UCSC_hg19/hg19_all_exons.bed" "~/Biliary_Brush/UCSC_hg19/target_exons.csv"
 
-'''
+```
